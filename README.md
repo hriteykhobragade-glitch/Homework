@@ -12,29 +12,6 @@ What the project does
   - Random Forest
 - Prints evaluation metrics for each model: Accuracy, Precision, Recall, F1 score, and the Confusion Matrix.
 
-Files
-- `main.py` — The script that loads data, trains the models, and prints evaluation metrics.
-- `requirements.txt` — Minimal Python packages required to run the script.
-
-Requirements
-- Python 3.8+ (tested with 3.8/3.9/3.10)
-- See `requirements.txt` for the exact packages. Installing from that file will pull in scikit-learn and its dependencies (including NumPy).
-
-Install
-Open PowerShell and run:
-
-```powershell
-python -m pip install --upgrade pip; \
-python -m pip install -r requirements.txt
-```
-
-Run
-From the project root (where `main.py` is located) run:
-
-```powershell
-python main.py
-```
-
 What to expect
 - The script trains three models and prints performance metrics to the console. The Logistic Regression model uses feature scaling; the tree-based models are trained on the raw features in `main.py`.
 - Example output (truncated) — you'll see three blocks, one per model, similar to:
@@ -59,3 +36,4 @@ License & Credits
 
 Contact
 - If you need help extending this demo (adding cross-validation, hyperparameter tuning, or saving trained models), open an issue or ask for help.
+
